@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from './page.module.css'
+import styles from '../page.module.css'
 
 const Page = () => (
   <main className={styles.main}>
@@ -42,13 +42,13 @@ const Page = () => (
 
     <div className={styles.grid}>
       <Link
-        href="/foo"
+        href="/"
         className={styles.card}
       >
         <h2>
-          Foo <span>-&gt;</span>
+          Go back <span>-&gt;</span>
         </h2>
-        <p>This is a link</p>
+        <p>This is going back</p>
       </Link>
     </div>
   </main>
