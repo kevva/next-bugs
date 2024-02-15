@@ -12,11 +12,11 @@
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "next": "^14.0.5-canary.36"
+    "next": "^14.1.1-canary.54"
   },
   "devDependencies": {
     "eslint": "^8",
-    "eslint-config-next": "^14.0.5-canary.36"
+    "eslint-config-next": "^14.1.1-canary.54"
   },
   "eslintConfig": {
     "extends": "next/core-web-vitals"
